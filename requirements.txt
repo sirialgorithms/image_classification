@@ -1,5 +1,5 @@
-pip install tensor flow
-pip install OpenCV-python
+pip install tensorflow
+pip install opencv-python
 pip install streamlit
-pip install NumPy
+pip install numpy
 pip install pandas
