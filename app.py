@@ -9,7 +9,7 @@ from tensorflow.keras.models import Model
 def load_model():
     return keras.models.load_model("vehicle_classification_model.h5")
 
-model = keras.models.load_model("vehicle_classification_model.h5")
+model = tf.keras.models.load_model("vehicle_classification_model.h5")
 
 #model = load_model()
 
