@@ -1,5 +1,5 @@
-tensorflow == 2.21.0
-opencv-python== 4.13.0
-streamlit
-numpy
-pandas
+pip install tensor flow
+OpenCV-python
+pip install streamlit
+pip install NumPy
+pip install pandas
