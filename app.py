@@ -2,11 +2,12 @@ import streamlit as st
 import tensorflow as tf
 import numpy as np
 from PIL import Image
+from tensorflow.keras.models import Model
 
 # Load model
 @st.cache_resource
 def load_model():
-    return tf.keras.models.load_model("vehicle_classification_model.h5")
+    return keras.models.load_model("vehicle_classification_model.h5")
 
 model = load_model()
 
