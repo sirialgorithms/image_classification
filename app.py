@@ -9,7 +9,9 @@ from tensorflow.keras.models import Model
 def load_model():
     return keras.models.load_model("vehicle_classification_model.h5")
 
-model = load_model()
+model = keras.models.load_model("vehicle_classification_model.h5")
+
+#model = load_model()
 
 # Replace with your classes
 class_names = [
